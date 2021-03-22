@@ -321,7 +321,6 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 <hr/>
 
 {% comment %}
-{% SYLLABUS
 
 Show what topics will be covered.
 
@@ -336,7 +335,7 @@ the div's with class="row" to balance the multi-column layout.
 This is one of the places where people frequently make mistakes, so
 please preview your site before committing, and make sure to run
 'tools/check' as well.
-{% endcomment %}
+
 <h2 id="syllabus">Syllabus</h2>
 %}
 {% if site.carpentry == "swc" %}
@@ -348,7 +347,7 @@ please preview your site before committing, and make sure to run
 {% endif %}
 
 <hr/>
-
+{% endcomment %}
 {% comment %}
 SETUP
 
