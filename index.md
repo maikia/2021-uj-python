@@ -337,7 +337,6 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 
 <h2 id="syllabus">Syllabus</h2>
-%}
 {% if site.carpentry == "swc" %}
 {% include swc/syllabus.html %}
 {% elsif site.carpentry == "dc" %}
