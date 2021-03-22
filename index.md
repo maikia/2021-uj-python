@@ -321,7 +321,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 <hr/>
 
 {% comment %}
-SYLLABUS
+{% SYLLABUS
 
 Show what topics will be covered.
 
@@ -338,7 +338,7 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 <h2 id="syllabus">Syllabus</h2>
-
+%}
 {% if site.carpentry == "swc" %}
 {% include swc/syllabus.html %}
 {% elsif site.carpentry == "dc" %}
